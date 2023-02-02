@@ -1,10 +1,12 @@
 package main
 
+import "fmt"
+
 func main() {
-	key := "123"
-	message := "456"
+	key := "the quick brown fox jumps over the lazy dog"
+	message := "vkbs bs t suepuv"
 	s := decodeMessage(key, message)
-	println(s)
+	fmt.Println(s)
 }
 
 func decodeMessage(key string, message string) string {
